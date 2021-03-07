@@ -12,3 +12,11 @@
 - I studied Typescript, React.js (core), but I have no experience of using it in real work yet
 - I can (and love) working with git from the command line
 - English level B2 (listening C2)
+
+## Code sample
+
+There are my code sample:
+
+```js
+console.log('Hello from CV);
+```
