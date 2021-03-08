@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__title h1 {
+  display: inline-block;
+}
+
+.header__subtitle {
+  display: inline-block;
+}
+
+.header__photo {
+  border-radius: 50%;
+  margin: 20px 50px 30px 0;
+  width: 200px;
+  height: 200px;
+}
+
+h2 {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 5px 10px;
+}
+
+ul {
+  font-size: 1rem;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+a {
+  color: #0cc;
+  font-weight: 500;
+  padding: 0 5px;
+  text-decoration: none;
+  border-bottom: 1px dotted black;
+}
+
+.skills-container ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.skills-container ul li {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 50px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.k1::after {
+  content: '⭐';
+  margin: 10px;
+}
+.k2::after {
+  content: '⭐⭐';
+  margin: 10px;
+}
+.k3::after {
+  content: '⭐⭐⭐';
+  margin: 10px;
+}
+.k4::after {
+  content: '⭐⭐⭐⭐';
+  margin: 10px;
+}
+.k5::after {
+  content: '⭐⭐⭐⭐⭐';
+  margin: 10px;
+}
+
+.english ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+  align-items: center;
+}
+
+.english li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-right: 50px;
+}
+
+.english span {
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+footer {
+  display: flex;
+  margin: 20px 0px;
+  justify-content: space-between;
+}
+
+.github {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.github__logo {
+  height: 32px;
+  margin-right: 5px;
+  display: inline;
+}
+
+.contact ul {
+  margin: 20px;
+}
+
+.contact ul li {
+  margin: 10px 0;
+}
